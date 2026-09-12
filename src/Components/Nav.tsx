@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 const Nav = () => {
     return (
         <nav>
-            <div className="container mx-auto flex justify-between">
+            <div className="container mx-auto flex justify-between my-2">
                 <img src={Logo} alt="" />
 
                 <ul className="flex gap-4 items-center">

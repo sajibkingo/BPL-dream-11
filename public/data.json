@@ -1,0 +1,56 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Orthodox",
+    "price": 12000000
+  },
+  {
+    "playerName": "Tamim Iqbal",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "None",
+    "price": 10000000
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "None",
+    "price": 9000000
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Left-Arm Fast-Medium",
+    "price": 8500000
+  },
+  {
+    "playerName": "Taskin Ahmed",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": 7500000
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImg": "https://static.toiimg.com/photo/119129076.cms",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "battingStyle": "Right-Handed",
+    "bowlingStyle": "None",
+    "price": 8000000
+  }
+]
