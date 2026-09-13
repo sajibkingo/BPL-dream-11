@@ -9,18 +9,18 @@
     "price": 1200
   },
   {
-    "playerName": "Tamim Iqbal",
+    "playerName": "Virat Kohli",
     "playerImg": "https://static.toiimg.com/photo/119129076.cms",
-    "origin": "Bangladesh",
+    "origin": "India",
     "playerType": "Batsman",
-    "battingStyle": "Left-Handed",
+    "battingStyle": "Right-Handed",
     "bowlingStyle": "None",
     "price": 1000
   },
   {
-    "playerName": "Mushfiqur Rahim",
+    "playerName": "MS Dhoni",
     "playerImg": "https://static.toiimg.com/photo/119129076.cms",
-    "origin": "Bangladesh",
+    "origin": "India",
     "playerType": "Wicket-Keeper Batsman",
     "battingStyle": "Right-Handed",
     "bowlingStyle": "None",
@@ -36,12 +36,12 @@
     "price": 850
   },
   {
-    "playerName": "Taskin Ahmed",
+    "playerName": "Shane Warne",
     "playerImg": "https://static.toiimg.com/photo/119129076.cms",
-    "origin": "Bangladesh",
+    "origin": "Australia",
     "playerType": "Bowler",
-    "battingStyle": "Right-Handed",
-    "bowlingStyle": "Right-Arm Fast",
+    "battingStyle": "Left-Handed",
+    "bowlingStyle": "Leg-spin Bowler",
     "price": 750
   },
   {
