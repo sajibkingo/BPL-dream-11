@@ -1,12 +1,39 @@
 import { FaUser } from "react-icons/fa6";
 import { GiCricketBat, GiWhistle } from "react-icons/gi";
 import type { Iplayer } from "../types/playerType";
+import { useState, type Dispatch, type SetStateAction } from "react";
+import { toast } from "react-toastify";
 
 interface PlayerCardProps {
-    player: Iplayer;
+    player: Iplayer,
+    coin: number,
+    setCoin: Dispatch<SetStateAction<number>>,
+    selectedPlayers: Iplayer[],
+    setSelectedPlayers: Dispatch<SetStateAction<Iplayer[]>>
 }
 
-const PlayerCard = ({ player }: PlayerCardProps) => {
+
+const PlayerCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }: PlayerCardProps) => {
+    const [isSelected, setIsSelected] = useState(false)
+
+    const handleSelectPlayer = () => {
+        const newCoinPrice = coin - player.price;
+
+        if (newCoinPrice >= 0) {
+            setCoin(newCoinPrice);
+            setSelectedPlayers([...selectedPlayers, player]);
+            setIsSelected(true);
+            toast(`${player.playerName} is purchased successfully`)
+        } else {
+            toast("Coin is low");
+        }
+
+        // Selected players
+        setSelectedPlayers([...selectedPlayers, player]);
+    }
+
+
+
     return (
         <div className="group w-full max-w-sm overflow-hidden rounded-2xl border border-base-300 bg-base-100 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
 
@@ -103,8 +130,10 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
                     </div>
 
                     {/* Choose Button */}
-                    <button className="btn btn-primary rounded-xl px-5 shadow-sm transition-all hover:scale-105">
-                        Choose Player
+                    <button
+                        onClick={() => handleSelectPlayer()}
+                        className="btn btn-primary rounded-xl px-5 shadow-sm transition-all hover:scale-105" disabled={isSelected ? true : false}>
+                        {isSelected === true ? "Selected" : "Choose Player"}
                     </button>
 
                 </div>

@@ -6,7 +6,7 @@
     "playerType": "All-Rounder",
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Left-Arm Orthodox",
-    "price": 12000000
+    "price": 1200
   },
   {
     "playerName": "Tamim Iqbal",
@@ -15,7 +15,7 @@
     "playerType": "Batsman",
     "battingStyle": "Left-Handed",
     "bowlingStyle": "None",
-    "price": 10000000
+    "price": 1000
   },
   {
     "playerName": "Mushfiqur Rahim",
@@ -24,7 +24,7 @@
     "playerType": "Wicket-Keeper Batsman",
     "battingStyle": "Right-Handed",
     "bowlingStyle": "None",
-    "price": 9000000
+    "price": 900
   },
   {
     "playerName": "Mustafizur Rahman",
@@ -33,7 +33,7 @@
     "playerType": "Bowler",
     "battingStyle": "Left-Handed",
     "bowlingStyle": "Left-Arm Fast-Medium",
-    "price": 8500000
+    "price": 850
   },
   {
     "playerName": "Taskin Ahmed",
@@ -42,7 +42,7 @@
     "playerType": "Bowler",
     "battingStyle": "Right-Handed",
     "bowlingStyle": "Right-Arm Fast",
-    "price": 7500000
+    "price": 750
   },
   {
     "playerName": "Litton Das",
@@ -51,6 +51,6 @@
     "playerType": "Wicket-Keeper Batsman",
     "battingStyle": "Right-Handed",
     "bowlingStyle": "None",
-    "price": 8000000
+    "price": 800
   }
 ]
